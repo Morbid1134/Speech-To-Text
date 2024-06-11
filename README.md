@@ -20,15 +20,18 @@ This program is designed to continuously listen for a specific keyword, record a
 
 ## Installation
 
-1. **Install required Python packages**:
+1. **Install and navigate to repository**:
     ```bash
-    pip install numpy playsound pyaudio SpeechRecognition wave faster-whisper
+    git clone https://github.com/Morbid1134/Speech-To-Text
+    cd Speech-To-Text
     ```
+
+2. **Install required Python packages**:
     ```bash
     pip install -r requirements.txt
     ```
 
-2. **Install additional system dependencies**:
+3. **Install additional system dependencies**:
     - For `pyaudio`, you may need to install portaudio:
       ```bash
       sudo apt-get install portaudio19-dev  # For Debian-based systems
