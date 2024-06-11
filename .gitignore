@@ -1,0 +1,11 @@
+/.venv
+/__pycache__
+/atlas.py
+/detect.py
+/record.py
+/response.mp3
+/run.py
+/t.py
+/test.py
+/transcribe.py
+/voice.py
